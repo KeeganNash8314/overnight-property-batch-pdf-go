@@ -1,0 +1,5 @@
+[
+  {"id":"M-104","kind":"maintenance","property":"Oak Court 2B","detail":"Kitchen tap is leaking; contractor visit requested","due":"2026-09-19"},
+  {"id":"D-208","kind":"tenant_document","property":"Oak Court 2B","detail":"Renewal agreement received and awaiting review"},
+  {"id":"I-312","kind":"inspection","property":"Pine House 4A","detail":"Fire door inspection reminder","due":"2026-09-19"}
+]

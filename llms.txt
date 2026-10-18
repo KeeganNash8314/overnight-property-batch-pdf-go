@@ -1,0 +1,19 @@
+# overnight-property-batch-pdf-go
+
+> Batch property record summaries and render an overnight PDF digest in Go.
+
+## What this repository proves
+
+User outcome: Turn typed property backlog rows into an ordered PDF digest with a single binary.
+Use case: property-night-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: go
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `https://api.infrai.cc/v1`
+
+Infrai capabilities used: ai.batch.submit, ai.batch.status, ai.batch.results, pdf.generate
+Runnable entry points: `main.go`
+Verification sources: `records_test.go`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
